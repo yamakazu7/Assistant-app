@@ -1,0 +1,23 @@
+{
+  "name": "guide",
+  "version": "1.0.0",
+  "description": "invitation application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Shio Sakata",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^3.3.0",
+    "date-utils": "^1.2.21",
+    "mysql": "^2.18.1",
+    "nedb": "^1.8.0",
+    "sqlite3": "^5.0.2"
+  },
+  "engines": {
+    "node": "14.16.1"
+  }
+}
